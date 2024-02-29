@@ -5,3 +5,19 @@
     --white-color: white;
     --black-color: black;
 }
+
+body {
+    font-family: var(--font);
+}
+
+.header-logo {
+    /* color: var(--white-color); */
+}
+
+.background-header {
+    background-image: url(img/header-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
