@@ -5,3 +5,78 @@
     --white-color: white;
     --black-color: black;
 }
+
+.container{
+    width: 1200px;
+    margin: auto;
+    
+}
+
+.About-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.about-container{
+    padding: 50px;
+}
+.About-us-heading{
+    margin-bottom: 80px;
+}
+.About-us-heading h2{
+    font-family: var(--font);
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.about-special{
+    color: #06f9b7;
+}
+/*.about-heading-text{
+    width: 800px;
+}*/
+.About-us-heading p{
+    font-family: var(--font);
+    font-size: 15px;
+}
+.About-us-content-box {
+     width: 350px;
+     padding: 0 20px;
+}
+.about-icon-title h3{
+    font-style: italic;
+    font-size: 40px;
+    font-family: var(--font);
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.icon-overlay-container{
+    position: relative;
+    display: inline-block;
+}
+.icon-overlay-container i{
+    font-size: 70px;
+    z-index: 99;
+    margin-bottom: 10px;
+    
+}
+.icon-overlay {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    /*transform: translateX(-50%);*/
+    width: 210px;
+    height: 10px;
+    background-color: var(--green-color);
+    display: block; /* Stand-alone weergave zonder hover */
+    z-index: -1;
+}
+
+.about-icon-text{
+
+    font-size: 15px;
+    font-weight: 600;
+}
