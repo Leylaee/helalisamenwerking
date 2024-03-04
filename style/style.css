@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
 :root {
     --green-color: #06f9b7;
     --grey-color: #f8fafa;
@@ -6,21 +8,21 @@
     --black-color: black;
 }
 
-
 body {
     font-family: var(--font);
 }
 
-/* header background */
+/* header section */
 
+/* header background */
 .header-background {
     background-image: url(/img/header-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 676px;
-
 }
 
+/* black and green overlay */
 .background-black {
     position: absolute;
     background-color: var(--black-color);
@@ -37,11 +39,12 @@ body {
     width: 51%;
 }
 
+
+/* navigatie en logo */
+
 .header-icon {
     color: var(--green-color);
 }
-
-/* navigatie en logo */
 
 .logo-text {
     color: var(--white-color);
@@ -71,6 +74,18 @@ body {
     margin-right: 350px;
 }
 
+.margin-right-min-50px {
+    margin-left: -50px;
+}
+
+.margin-top-40px {
+    margin-top: 40px;
+}
+
+.margin-top-60px {
+    margin-top: 60px;
+}
+
 .margin-top-100px {
     margin-top: 100px;
 }
@@ -83,10 +98,22 @@ body {
     padding-top: 100px;
 }
 
+.margin-bottom-15px {
+    margin-bottom: 15px;
+}
+
+.margin-bottom-25px {
+    margin-bottom: 25px;
+}
+
 /* flex css */
 
 .flex {
     display: flex;
+}
+
+.flex-direction-column {
+    flex-direction: column;
 }
 
 .justify-center {
@@ -95,6 +122,10 @@ body {
 
 .justify-end {
     justify-content: end;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
 }
 
 /* header title */
@@ -112,7 +143,7 @@ body {
     margin-left: 50px;
 }
 
-/* button desing */
+/* first button desing */
 
 .button {
     border: 1px solid var(--white-color);
@@ -157,9 +188,56 @@ body {
     z-index: 1;
 }
 
+/* second button desing */
+
+.second-button {
+    border: 2px solid var(--black-color);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 15px;
+    padding: 10px 50px 10px 20px;
+    font-family: var(--font);
+    transition: 250ms;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.second-button:hover {
+    border: 2px solid var(--green-color);
+    color: var(--green-color);
+}
+
+.second-button-point {
+    color: var(--green-color);
+    font-size: 12px;
+    padding-right: 7px;
+    transition: 250ms;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.second-button:hover>.second-button-point {
+    color: var(--black-color)
+}
+
+.second-button:hover+.second-button-line {
+    border-bottom: 2px solid var(--black-color);
+}
+
+.second-button-line {
+    border-bottom: 2px solid var(--green-color);
+    width: 50px;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 150px;
+    transition: 250ms;
+    z-index: 1;
+}
+
 /* header UX.UI block */
 
-.border-left {
+.header-border-left {
     border-left: 3px solid var(--green-color);
     height: 200px;
     z-index: 1;
@@ -175,8 +253,6 @@ body {
     font-size: 100px;
     font-weight: bold;
     z-index: 1;
-
-
 }
 
 /* about-us */
@@ -260,3 +336,58 @@ body {
 }
 
 /* Our Service */
+
+.background-grey {
+    background-color: var(--grey-color);
+    height: 820px;
+}
+
+.services-title {
+    color: var(--green-color);
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.services-text-500 {
+    font-weight: 500;
+}
+
+.services-title-black {
+    color: var(--black-color);
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.services-icons {
+    font-size: 35px;
+    transition: 250ms;
+    margin-bottom: 50px;
+}
+
+.services-subtitle {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.services-icons:hover {
+    color: #06f9b7;
+}
+
+
+/* border left and right  */
+
+.border-right {
+    border-right: 3px solid var(--green-color);
+    height: 200px;
+    z-index: 1;
+    margin-top: -70px;
+    margin-right: -60px;
+}
+
+.border-left {
+    border-left: 3px solid var(--green-color);
+    height: 200px;
+    z-index: 1;
+    margin-top: 40px;
+    margin-left: -50px;
+}
