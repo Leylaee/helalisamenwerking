@@ -148,7 +148,7 @@ body {
 }
 
 .button-line {
-    border-bottom: 1px solid var(--green-color);
+    border-bottom: 2px solid var(--green-color);
     width: 50px;
     position: absolute;
     margin-top: 122px;
@@ -181,55 +181,66 @@ body {
 
 /* about-us */
 
-.green-text{
-    color:var(--green-color);
+.green-text {
+    color: var(--green-color);
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
-.About-us{
+
+.About-us {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
-.About-us-heading{
+
+.About-us-heading {
     margin-bottom: 80px;
     padding: 0px 100px;
 }
-.About-us-heading h2{
+
+.About-us-heading h2 {
     font-family: var(--font);
     font-size: 50px;
     font-weight: bolder;
     margin-bottom: 20px;
 }
-.About-us-heading p{
+
+.About-us-heading p {
     font-family: var(--font);
     font-size: 15px;
 }
-.About-us-content{
+
+.About-us-content {
     padding: 0 100px;
 }
+
 .About-us-content-box {
-     width: 350px;
-     padding: 0 20px;
+    width: 350px;
+    padding: 0 20px;
 }
-.about-icon-title h3{
+
+.about-icon-title h3 {
     font-style: italic;
     font-size: 40px;
     font-family: var(--font);
     font-weight: bolder;
     margin-bottom: 10px;
 }
-.icon-overlay-container{
+
+.icon-overlay-container {
     position: relative;
     display: inline-block;
 }
-.icon-overlay-container i{
+
+.icon-overlay-container i {
     font-size: 70px;
     z-index: 99;
-    margin-bottom: 10px;   
+    margin-bottom: 10px;
 }
+
 .icon-overlay {
     content: "";
     position: absolute;
@@ -238,10 +249,11 @@ body {
     width: 210px;
     height: 10px;
     background-color: var(--green-color);
-    display: block; 
+    display: block;
     z-index: -1;
 }
-.about-icon-text{
+
+.about-icon-text {
     font-size: 15px;
     font-weight: 600;
 
