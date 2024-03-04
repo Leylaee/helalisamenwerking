@@ -7,7 +7,6 @@
 }
 
 
-
 body {
     font-family: var(--font);
 }
@@ -177,6 +176,7 @@ body {
     font-weight: bold;
     z-index: 1;
 
+
 }
 
 /* about-us */
@@ -248,4 +248,5 @@ body {
 .about-icon-text{
     font-size: 15px;
     font-weight: 600;
+
 }
