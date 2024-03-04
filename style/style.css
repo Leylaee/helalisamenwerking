@@ -113,7 +113,7 @@ body {
     color: var(--green-color);
 }
 
-.button-point {
+.second-button-point {
     color: var(--green-color);
     font-size: 12px;
     padding-right: 7px;
@@ -122,7 +122,7 @@ body {
     font-weight: bold;
 }
 
-.second-button:hover>.button-point {
+.second-button:hover>.second-button-point {
     color: var(--black-color)
 }
 
