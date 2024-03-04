@@ -269,7 +269,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 65vh;
 }
 
 .About-us-heading {
@@ -361,7 +361,7 @@ body {
 .services-icons {
     font-size: 35px;
     transition: 250ms;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .services-subtitle {
@@ -379,15 +379,13 @@ body {
 .border-right {
     border-right: 3px solid var(--green-color);
     height: 200px;
+    margin-top: -90px;
     z-index: 1;
-    margin-top: -70px;
-    margin-right: -60px;
 }
 
 .border-left {
     border-left: 3px solid var(--green-color);
     height: 200px;
     z-index: 1;
-    margin-top: 40px;
-    margin-left: -50px;
+    margin-top: 50px;
 }
