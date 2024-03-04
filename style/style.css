@@ -74,7 +74,7 @@ body {
 }
 
 .button:hover+.button-line {
-    border-bottom: 1px solid var(--black-color);
+    border-bottom: 2px solid var(--black-color);
 }
 
 .button-line {
