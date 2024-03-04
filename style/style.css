@@ -8,7 +8,178 @@
 
 
 
+body {
+    font-family: var(--font);
+}
 
+/* header background */
+
+.header-background {
+    background-image: url(/img/header-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 676px;
+
+}
+
+.background-black {
+    position: absolute;
+    background-color: var(--black-color);
+    opacity: 75%;
+    height: 676px;
+    width: 100%;
+}
+
+.background-green {
+    position: absolute;
+    background-color: var(--green-color);
+    opacity: 75%;
+    height: 676px;
+    width: 51%;
+}
+
+.header-icon {
+    color: var(--green-color);
+}
+
+/* navigatie en logo */
+
+.logo-text {
+    color: var(--white-color);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--font);
+    z-index: 1;
+}
+
+.header-nav {
+    margin-right: 70px;
+    z-index: 1;
+}
+
+.white-nav-link {
+    color: var(--white-color);
+}
+
+.nav-item {
+    margin-right: 50px;
+}
+
+/* margin and padding */
+
+.margin-right-350px {
+    margin-right: 350px;
+}
+
+.margin-top-100px {
+    margin-top: 100px;
+}
+
+.margin-top-200px {
+    margin-top: 200px;
+}
+
+.padding-top-100px {
+    padding-top: 100px;
+}
+
+/* flex css */
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+/* header title */
+
+.header-title-white {
+    font-weight: bold;
+    color: var(--white-color);
+    font-size: 60px;
+    z-index: 1;
+}
+
+.header-title-black {
+    font-weight: bold;
+    color: var(--black-color);
+    margin-left: 50px;
+}
+
+/* button desing */
+
+.button {
+    border: 1px solid var(--white-color);
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 50px 10px 20px;
+    font-family: var(--font);
+    transition: 250ms;
+    z-index: 1;
+}
+
+.button:hover {
+    border: 1px solid var(--green-color);
+    color: var(--green-color);
+}
+
+.button-point {
+    color: var(--green-color);
+    font-size: 12px;
+    padding-right: 7px;
+    transition: 250ms;
+    z-index: 1;
+}
+
+.button:hover>.button-point {
+    color: var(--black-color)
+}
+
+.button:hover+.button-line {
+    border-bottom: 2px solid var(--black-color);
+}
+
+.button-line {
+    border-bottom: 1px solid var(--green-color);
+    width: 50px;
+    position: absolute;
+    margin-top: 122px;
+    margin-right: 180px;
+    transition: 250ms;
+    z-index: 1;
+}
+
+/* header UX.UI block */
+
+.border-left {
+    border-left: 3px solid var(--green-color);
+    height: 200px;
+    z-index: 1;
+}
+
+.ux-ui-black-dot {
+    color: var(--black-color);
+    font-size: 100px;
+}
+
+.ux-ui-white-title {
+    color: var(--white-color);
+    font-size: 100px;
+    font-weight: bold;
+    z-index: 1;
+
+}
+
+/* about-us */
 
 .container{
     width: 1200px;
