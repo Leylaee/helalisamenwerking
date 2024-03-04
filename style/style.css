@@ -181,15 +181,16 @@ body {
 
 /* about-us */
 
-.container{
-    width: 1200px;
-    margin: auto;    
-}
+
 .green-text{
     color:var(--green-color);
 }
 .bold{
     font-weight: bold;
+}
+
+.padding-right-left-100px{
+    padding: 0 100px;
 }
 .About-us{
     display: flex;
@@ -199,20 +200,20 @@ body {
 }
 .About-us-heading{
     margin-bottom: 80px;
-    padding: 0px 50px;
+    padding: 0px 100px;
 }
-.About-us-heading h2{
+.About-us-heading h2, .portfolio-heading h2{
     font-family: var(--font);
     font-size: 50px;
     font-weight: bolder;
     margin-bottom: 20px;
 }
-.About-us-heading p{
+.About-us-heading p, .portfolio-heading p{
     font-family: var(--font);
     font-size: 15px;
 }
 .About-us-content{
-    padding: 0 50px;
+    padding: 0 100px;
 }
 .About-us-content-box {
      width: 350px;
@@ -250,3 +251,35 @@ body {
     font-weight: 600;
 
 }
+
+
+/* portfolio */
+
+.margin-top-40px{
+    margin-top: 40px;
+}
+
+.portfolio-heading{
+    padding: 0 100px;
+
+}
+.portfolio-menu li{
+    display: inline-block;
+    padding-right: 50px;
+    font-weight: bolder;
+}
+
+.img-fluid {
+    height: 350px;
+    width: auto;
+    object-fit: cover;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
