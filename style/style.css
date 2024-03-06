@@ -106,6 +106,13 @@ body {
     margin-bottom: 25px;
 }
 
+.margin-left-50px{
+    padding-left: 50px;
+}
+
+.margin-right-50px{
+    padding-right: 50px;
+}
 /* flex css */
 
 .flex {
@@ -266,42 +273,17 @@ body {
 }
 
 .About-us {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 65vh;
-}
-
-.About-us-heading {
-    margin-bottom: 80px;
-    padding: 0px 100px;
+    height: 720px;
 }
 
 .About-us-heading h2 {
-    font-family: var(--font);
-    font-size: 50px;
+    font-size: 55px;
     font-weight: bolder;
-    margin-bottom: 20px;
-}
-
-.About-us-heading p {
-    font-family: var(--font);
-    font-size: 15px;
-}
-
-.About-us-content {
-    padding: 0 100px;
-}
-
-.About-us-content-box {
-    width: 350px;
-    padding: 0 20px;
 }
 
 .about-icon-title h3 {
     font-style: italic;
     font-size: 40px;
-    font-family: var(--font);
     font-weight: bolder;
     margin-bottom: 10px;
 }
@@ -330,7 +312,7 @@ body {
 }
 
 .about-icon-text {
-    font-size: 15px;
+ 
     font-weight: 600;
 
 }
