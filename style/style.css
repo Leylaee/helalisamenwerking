@@ -413,15 +413,28 @@ body {
     opacity: 1;
 }
 .overlay-img-text{
-
     position: absolute;
-    top: 72%;
+    top: 81%;
     background: var(--green-color);
     padding: 10px;
     width: 100%;
     opacity: 0;
-    height: 100px;
-
+    height: 66px;
+ 
+}
+.overlay-img-text::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--green-color);
+    transform: skewY(-10deg);
+    z-index: -1;
+}
+.overlay-img-text:before{
+    transform: skewY(-10deg);
 }
 .text-i{
     position: absolute;
