@@ -144,6 +144,10 @@ body {
     justify-content: space-evenly;
 }
 
+.align-center{
+    align-items: center;
+}
+
 /* header title */
 
 .header-title-white {
@@ -243,6 +247,51 @@ body {
 
 .second-button-line {
     border-bottom: 2px solid var(--green-color);
+    width: 50px;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 150px;
+    transition: 250ms;
+    z-index: 1;
+}
+
+/* contact-button */ 
+.contact-button {
+    border: 2px solid var(--green-color);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--green-color);
+    font-size: 15px;
+    padding: 10px 50px 10px 20px;
+    font-family: var(--font);
+    transition: 250ms;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.contact-button:hover {
+    border: 2px solid white;
+    color: white;
+}
+.contact-button-point {
+    color: white;
+    font-size: 12px;
+    padding-right: 7px;
+    transition: 250ms;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.contact-button:hover>.contact-button-point {
+    color: var(--green-color)
+}
+
+.contact-button:hover+.contact-button-line {
+    border-bottom: 2px solid var(--green-color);
+}
+
+.contact-button-line {
+    border-bottom: 2px solid white;
     width: 50px;
     position: absolute;
     margin-top: -12px;
@@ -456,6 +505,24 @@ body {
     padding: 10px;
 }
 
+/* banner contact */
+
+.contact-banner{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),  url(/img/contact.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.color-white{
+    color: white;
+}
+.contact-banner h2{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.contact-banner p{
+    font-size: 20px;
+}
 
 
 
