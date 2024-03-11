@@ -39,6 +39,15 @@ body {
     width: 51%;
 }
 
+.background-green-testimonial {
+    position: absolute;
+    background-color: var(--green-color);
+    margin-top: 130px;
+    opacity: 75%;
+    height: 500px;
+    width: 50%;
+}
+
 
 /* navigatie en logo */
 
@@ -74,6 +83,14 @@ body {
     margin-right: 350px;
 }
 
+.margin-right-50px {
+    margin-right: 10px;
+}
+
+.margin-left-20px {
+    margin-left: 20px;
+}
+
 .margin-right-min-50px {
     margin-left: -50px;
 }
@@ -82,12 +99,28 @@ body {
     margin-top: 40px;
 }
 
+.margin-top-50px {
+    margin-top: 50px;
+}
+
 .margin-top-60px {
     margin-top: 60px;
 }
 
+.margin-top-80px {
+    margin-top: 80px;
+}
+
 .margin-top-100px {
     margin-top: 100px;
+}
+
+.margin-top-130px {
+    margin-top: 130px;
+}
+
+.margin-top-150px {
+    margin-top: 150px;
 }
 
 .margin-top-200px {
@@ -111,10 +144,18 @@ body {
 }
 
 
+
 .margin-right-150px{
     margin-right: 150px;
 }
 .padding-left-50px{
+=======
+.margin-bottom-130px {
+    margin-bottom: 130px;
+}
+
+.padding-left-50px {
+
     padding-left: 50px;
 }
 
@@ -123,7 +164,7 @@ body {
 }
 
 .padding-left-20px{
-     padding-left: 20px;
+    padding-left: 20px;
 }
 
 .padding-top-50px{
@@ -158,7 +199,7 @@ body {
     justify-content: space-evenly;
 }
 
-.align-center{
+.align-center {
     align-items: center;
 }
 
@@ -261,6 +302,53 @@ body {
 
 .second-button-line {
     border-bottom: 2px solid var(--green-color);
+    width: 50px;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: 150px;
+    transition: 250ms;
+    z-index: 1;
+}
+
+/* third button desing */
+
+.third-button {
+    border: 2px solid var(--black-color);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 15px;
+    padding: 10px 50px 10px 20px;
+    font-family: var(--font);
+    transition: 250ms;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.third-button:hover {
+    border: 2px solid var(--white-color);
+    color: var(--white-color);
+}
+
+.third-button-point {
+    color: var(--white-color);
+    font-size: 12px;
+    padding-right: 7px;
+    transition: 250ms;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.third-button:hover>.third-button-point {
+    color: var(--black-color)
+}
+
+.third-button:hover+.third-button-line {
+    border-bottom: 2px solid var(--white-color);
+}
+
+.third-button-line {
+    border-bottom: 2px solid var(--white-color);
     width: 50px;
     position: absolute;
     margin-top: -12px;
@@ -430,9 +518,7 @@ body {
 }
 
 .about-icon-text {
- 
     font-weight: 600;
-
 }
 
 /* Our Service */
@@ -509,15 +595,15 @@ body {
 }
 
 .overlay-img{
-   position: absolute;
-   top:0;
-   left:0;
-   width: 100%;
-   height: 100%;
-   background-color: rgba(6,249,183,0.5);
-   z-index:1;
-   opacity: 0;
-   transition: opacity 0.3s ease;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(6,249,183,0.5);
+    z-index:1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
 }
 .col:hover .overlay-img{
     opacity: 1;
@@ -530,7 +616,6 @@ body {
     width: 100%;
     opacity: 0;
     height: 66px;
- 
 }
 .overlay-img-text::before {
     content: "";
@@ -582,8 +667,7 @@ body {
 }
 .contact-banner p{
     font-size: 20px;
-}
-
+  }
 /* contact-form */
 
 .contact-form{
@@ -632,3 +716,56 @@ input{
     border-radius: 100%;
     box-shadow: 3px 3px 5px #888888;
 }
+
+/* testimonial section */
+
+.testimanial-bg-image {
+    background-image: url(/img/testimonial-section-iamge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.testimonial-title {
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.testimonial-text {
+    font-size: 17px;
+    font-weight: 500;
+    font-family: var(--font);
+    z-index: 1;
+}
+
+.sideways-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.bg-color-green {
+    height: 225px;
+    width: 300px;
+    background-color: var(--green-color);
+}
+
+.green-bg-line {
+    position: absolute;
+    margin-top: 40px;
+    width: 135px;
+    border: 3px solid var(--green-color);
+    z-index: -1;
+}
+
+.testimonial-button-point-filled {
+    color: var(--black-color);
+    font-size: 13px;
+}
+
+.testimonial-button-point {
+    margin: -4.5px 15px 0 15px;
+    font-size: 11px;
+}
+
