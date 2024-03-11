@@ -248,11 +248,11 @@ body {
 }
 
 .button:hover>.button-point {
-    color: var(--black-color)
+    color: var(--white-color)
 }
 
 .button:hover+.button-line {
-    border-bottom: 2px solid var(--black-color);
+    border-bottom: 2px solid var(--white-color);
 }
 
 .button-line {
