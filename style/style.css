@@ -143,11 +143,19 @@ body {
     margin-bottom: 60px;
 }
 
+
+
+.margin-right-150px{
+    margin-right: 150px;
+}
+.padding-left-50px{
+=======
 .margin-bottom-130px {
     margin-bottom: 130px;
 }
 
 .padding-left-50px {
+
     padding-left: 50px;
 }
 
@@ -159,6 +167,16 @@ body {
     padding-left: 20px;
 }
 
+.padding-top-50px{
+    padding-top: 50px;
+}
+.padding-right-300px{
+    padding-right: 300px;
+}
+
+.padding-10px{
+    padding: 3px;
+}
 /* flex css */
 
 .flex {
@@ -384,6 +402,52 @@ body {
     z-index: 1;
 }
 
+/* form button */ 
+.form-button {
+    border: 2px solid var(--black-color);
+    border-radius: 3px;
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 15px;
+    padding: 10px 50px 10px 20px;
+    font-family: var(--font);
+    transition: 250ms;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.form-button:hover {
+    border: 2px solid var(--green-color);
+    color: var(--green-color);
+}
+
+.form-button-point {
+    color: var(--green-color);
+    font-size: 12px;
+    padding-right: 7px;
+    transition: 250ms;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.form-button:hover>.form-button-point {
+    color: var(--black-color)
+}
+
+.form-button:hover+.form-button-line {
+    border-bottom: 2px solid var(--black-color);
+}
+
+.form-button-line {
+    border-bottom: 2px solid var(--green-color);
+    width: 50px;
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 140px;
+    transition: 250ms;
+    z-index: 1;
+}
+
 /* header UX.UI block */
 
 .header-border-left {
@@ -603,6 +667,54 @@ body {
 }
 .contact-banner p{
     font-size: 20px;
+  }
+/* contact-form */
+
+.contact-form{
+    position: relative;
+}
+form{
+   max-width: 500px;
+   margin: auto;
+   position: relative;
+  
+}
+
+form p{
+    width: 100%;
+}
+input{
+    border: none;
+    border-bottom: 2px solid var(--green-color);
+    padding: 12px;
+    width: 100%;   
+ }
+
+.border-form{
+    border-bottom: 10px solid black;
+    width: 10%;
+    position: absolute;
+    right: 0%;
+    
+}
+
+.position{
+    position: absolute;
+    right: 150px;
+    top: -90px;
+}
+
+.Scrolltop{
+    position: absolute;
+    right: 92px;
+    top: 50px;
+    transform: rotate(270deg);
+    padding-right: 10px;
+}
+
+.social-icon{
+    border-radius: 100%;
+    box-shadow: 3px 3px 5px #888888;
 }
 
 /* testimonial section */
@@ -656,3 +768,4 @@ body {
     margin: -4.5px 15px 0 15px;
     font-size: 11px;
 }
+
