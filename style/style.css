@@ -741,7 +741,7 @@ input{
 }
 
 .testimonial-text {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 500;
     font-family: var(--font);
     z-index: 1;
@@ -773,7 +773,14 @@ input{
 }
 
 .testimonial-button-point {
-    margin: -4.5px 15px 0 15px;
+    margin: -3px 15px 0 15px;
     font-size: 11px;
+}
+
+.testimonial-icon {
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 5px;
 }
 
