@@ -48,7 +48,6 @@ body {
     width: 50%;
 }
 
-
 /* navigatie en logo */
 
 .header-icon {
@@ -142,8 +141,6 @@ body {
 .margin-bottom-60px{
     margin-bottom: 60px;
 }
-
-
 
 .margin-right-150px{
     margin-right: 150px;
@@ -522,6 +519,14 @@ body {
     font-weight: 600;
 }
 
+.about-sideways-text {
+    position: absolute;
+    left: 615px;
+    top: 100px;
+    transform: rotate(270deg);
+    padding-right: 10px;
+}
+
 /* Our Service */
 
 .background-grey {
@@ -668,17 +673,16 @@ body {
 }
 .contact-banner p{
     font-size: 20px;
-  }
+}
 /* contact-form */
 
 .contact-form{
     position: relative;
 }
 form{
-   max-width: 500px;
-   margin: auto;
-   position: relative;
-  
+    max-width: 500px;
+    margin: auto;
+    position: relative;
 }
 
 form p{
@@ -689,14 +693,13 @@ input{
     border-bottom: 2px solid var(--green-color);
     padding: 12px;
     width: 100%;   
- }
+}
 
 .border-form{
     border-bottom: 10px solid black;
     width: 10%;
     position: absolute;
     right: 0%;
-    
 }
 
 .position{
@@ -712,6 +715,7 @@ input{
     transform: rotate(270deg);
     padding-right: 10px;
 }
+
 
 .social-icon{
     border-radius: 100%;
@@ -744,6 +748,7 @@ input{
 .sideways-text {
     writing-mode: vertical-rl;
     text-orientation: mixed;
+    font-weight: bold;
 }
 
 .bg-color-green {
