@@ -72,6 +72,10 @@ body {
     color: var(--white-color);
 }
 
+.white-nav-link:hover {
+    color: var(--white-color);
+}
+
 .nav-item {
     margin-right: 50px;
 }
