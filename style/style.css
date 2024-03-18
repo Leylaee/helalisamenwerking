@@ -142,16 +142,18 @@ body {
     margin-bottom: 25px;
 }
 
-.margin-bottom-60px{
+.margin-bottom-60px {
     margin-bottom: 60px;
 }
 
-.margin-right-150px{
+.margin-right-150px {
     margin-right: 150px;
 }
-.padding-left-50px{
+
+.padding-left-50px {
     padding-left: 50px;
 }
+
 .margin-bottom-130px {
     margin-bottom: 130px;
 }
@@ -161,24 +163,26 @@ body {
     padding-left: 50px;
 }
 
-.padding-right-50px{
+.padding-right-50px {
     padding-right: 50px;
 }
 
-.padding-left-20px{
+.padding-left-20px {
     padding-left: 20px;
 }
 
-.padding-top-50px{
+.padding-top-50px {
     padding-top: 50px;
 }
-.padding-right-300px{
+
+.padding-right-300px {
     padding-right: 300px;
 }
 
-.padding-10px{
+.padding-10px {
     padding: 3px;
 }
+
 /* flex css */
 
 .flex {
@@ -359,7 +363,7 @@ body {
     z-index: 1;
 }
 
-/* contact-button */ 
+/* contact-button */
 .contact-button {
     border: 2px solid var(--green-color);
     border-radius: 3px;
@@ -377,6 +381,7 @@ body {
     border: 2px solid white;
     color: white;
 }
+
 .contact-button-point {
     color: white;
     font-size: 12px;
@@ -404,7 +409,7 @@ body {
     z-index: 1;
 }
 
-/* form button */ 
+/* form button */
 .form-button {
     border: 2px solid var(--black-color);
     border-radius: 3px;
@@ -485,7 +490,8 @@ body {
     position: relative;
 }
 
-.About-us-heading h2 , .portfolio-heading h2{
+.About-us-heading h2,
+.portfolio-heading h2 {
     font-size: 55px;
     font-weight: bolder;
 }
@@ -527,9 +533,9 @@ body {
 .about-sideways-text {
     position: absolute;
     right: 1px;
-    top: 20%; 
+    top: 20%;
     transform: rotate(270deg);
-    
+
 }
 
 /* Our Service */
@@ -588,37 +594,41 @@ body {
 
 /* portfolio */
 
-.portfolio-menu li{
+.portfolio-menu li {
     display: inline-block;
     padding-right: 50px;
     font-weight: bolder;
 }
+
 .img-fluid {
     height: 350px;
     width: auto;
     object-fit: cover;
 }
+
 .col {
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
-.overlay-img{
+.overlay-img {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(6,249,183,0.5);
-    z-index:1;
+    background-color: rgba(6, 249, 183, 0.5);
+    z-index: 1;
     opacity: 0;
     transition: opacity 0.3s ease;
 }
-.col:hover .overlay-img{
+
+.col:hover .overlay-img {
     opacity: 1;
 }
-.overlay-img-text{
+
+.overlay-img-text {
     position: absolute;
     top: 81%;
     background: var(--green-color);
@@ -627,6 +637,7 @@ body {
     opacity: 0;
     height: 66px;
 }
+
 .overlay-img-text::before {
     content: "";
     position: absolute;
@@ -638,22 +649,25 @@ body {
     transform: skewY(-5deg);
     z-index: -1;
 }
+
 /*.overlay-img-text::before{
     transform: skewY(-10deg);
 }*/
-.text-i{
+.text-i {
     position: absolute;
     top: 65%;
-    transform:translate(30%,-80%);
+    transform: translate(30%, -80%);
     font-size: 17px;
 }
-.col:hover .overlay-img-text{
+
+.col:hover .overlay-img-text {
     opacity: 1;
 }
-.overlay-img-text i{
+
+.overlay-img-text i {
     position: absolute;
     right: 30px;
-    top:-35px;
+    top: -35px;
     border: 1px solid white;
     background: white;
     border-radius: 50%;
@@ -662,60 +676,63 @@ body {
 
 /* banner contact */
 
-.contact-banner{
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)),  url(/img/contact.jpg);
+.contact-banner {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/img/contact.jpg);
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.color-white{
+
+.color-white {
     color: white;
 }
 
-.contact-banner h2{
+.contact-banner h2 {
     font-size: 60px;
     font-weight: bolder;
 }
 
-.contact-banner p{
+.contact-banner p {
     font-size: 20px;
 }
 
 /* contact-form */
 
-.contact-form{
+.contact-form {
     position: relative;
 }
-form{
+
+form {
     max-width: 500px;
     margin: auto;
     position: relative;
 }
 
-form p{
+form p {
     width: 100%;
 }
-input{
+
+input {
     border: none;
     border-bottom: 2px solid var(--green-color);
     padding: 12px;
-    width: 100%;   
+    width: 100%;
 }
 
-.border-form{
+.border-form {
     border-bottom: 10px solid black;
     width: 10%;
     position: absolute;
     right: 0%;
 }
 
-.position{
+.position {
     position: absolute;
     right: 150px;
     top: -90px;
 }
 
-.Scrolltop{
+.Scrolltop {
     position: absolute;
     right: 92px;
     top: 50px;
@@ -723,7 +740,7 @@ input{
     padding-right: 10px;
 }
 
-.social-icon{
+.social-icon {
     border-radius: 100%;
     box-shadow: 3px 3px 5px #888888;
 }
@@ -731,7 +748,7 @@ input{
 /* testimonial section */
 
 .testimanial-bg-image {
-    background-image: url(/img/testimonial-section-iamge.jpg);
+    background-image: url(../img/testimonial-section-iamge.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -787,4 +804,3 @@ input{
     margin-bottom: 20px;
     margin-right: 5px;
 }
-
